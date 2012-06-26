@@ -1,0 +1,41 @@
+/*
+
+        Creating a sprite from following images:
+        
+        images/douban.png (24x24)
+        images/douban_disabled.png (24x24)
+        images/renren.png (24x24)
+        images/renren_disabled.png (24x24)
+        images/weibo.png (24x24)
+        images/weibo_disabled.png (24x24)
+
+        Output files:
+          images.png
+          images.css
+
+        Output size:
+          144x24
+
+
+*/
+.clearfix:before, .clearfix:after {
+  content:"\0020";
+  display:block;
+  height:0;
+  visibility:hidden;
+}
+.clearfix:after {
+  clear:both;
+}
+
+.social-share-hub a {
+  float: left;
+  margin-right: 3px;
+}
+
+.social_share_hub_douban { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") 0px 0px no-repeat; }
+.social_share_hub_douban.disabled { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -24px 0px no-repeat; }
+.social_share_hub_renren { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -48px 0px no-repeat; }
+.social_share_hub_renren.disabled { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -72px 0px no-repeat; }
+.social_share_hub_weibo { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -96px 0px no-repeat; }
+.social_share_hub_weibo_disabled { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -120px 0px no-repeat; }

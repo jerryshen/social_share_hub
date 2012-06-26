@@ -33,9 +33,10 @@
   margin-right: 3px;
 }
 
-.social_share_hub_douban { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") 0px 0px no-repeat; }
-.social_share_hub_douban.disabled { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -24px 0px no-repeat; }
-.social_share_hub_renren { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -48px 0px no-repeat; }
-.social_share_hub_renren.disabled { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -72px 0px no-repeat; }
-.social_share_hub_weibo { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -96px 0px no-repeat; }
-.social_share_hub_weibo_disabled { width: 24px; height: 24px; background: image-url("sprites/social_share_hub_sprites.png") -120px 0px no-repeat; }
+.social_share_hub_douban { width: 24px; height: 24px; background: image-url("sprites/sprites.png") 0px 0px no-repeat; }
+.social_share_hub_douban_disabled { width: 24px; height: 24px; background: image-url("sprites/sprites.png") -24px 0px no-repeat; }
+.social_share_hub_qq { width: 24px; height: 24px; background: image-url("sprites/sprites.png") -48px 0px no-repeat; }
+.social_share_hub_renren { width: 24px; height: 24px; background: image-url("sprites/sprites.png") -72px 0px no-repeat; }
+.social_share_hub_renren_disabled { width: 24px; height: 24px; background: image-url("sprites/sprites.png") -96px 0px no-repeat; }
+.social_share_hub_weibo { width: 24px; height: 24px; background: url("sprites/sprites.png") -120px 0px no-repeat; }
+.social_share_hub_weibo_disabled { width: 24px; height: 24px; background: image-url("sprites/sprites.png") -144px 0px no-repeat; }

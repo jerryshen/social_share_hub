@@ -19,5 +19,5 @@ module SocialShareHub
 end
 
 SocialShareHub.configure do |conf|
-  conf.allowed_sites = %w(twitter facebook weibo douban qq renren)
+  conf.allowed_sites = %w(weibo douban qq renren)
 end

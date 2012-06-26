@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Jerry Shen"]
   gem.email         = ["jerry@ekohe.com"]
   gem.description   = %q{Social Share Hub}
-  gem.summary       = %q{Social Share Hub}
+  gem.summary       = %q{Social Share Hub, quick share buttons for social websites}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

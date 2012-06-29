@@ -4,7 +4,7 @@ SocialShareHub is a gem that can easy your share process without authenticating.
 
 ## Screenshorts
 
-![img](https://github.com/jerryshen/social_share_hub/blob/master/screenshorts/social_share_hub.png)
+![img][1]
 
 ## Installation
 
@@ -44,3 +44,5 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+[1]: https://github.com/jerryshen/social_share_hub/blob/master/screenshorts/social_share_hub.png

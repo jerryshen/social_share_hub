@@ -37,17 +37,24 @@ end
 
 You have to add mandatory asset files in your javascript and css files:
 
-``` ruby app/assets/javascripts/application.js
+`app/assets/javascripts/application.js`
+
+``` ruby
 //= require social_share_hub
 ```
 
-``` ruby app/assets/stylesheets/application.css
+
+`app/assets/stylesheets/application.css`
+
+``` ruby
 *= require social_share_hub
 ```
 
 Using helper to render social share links defined in your configuration file:
 
-    <%= social_share_link("Your title", "/Path-to-your-image.png") %>
+``` ruby
+<%= social_share_link("Your title", "/Path-to-your-image.png") %>
+```
 
 ## Contributing
 

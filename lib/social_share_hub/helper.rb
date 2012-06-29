@@ -17,5 +17,9 @@ module SocialShareHub
       html << "</div>"
       raw html.join("\n")
     end
+
+    def social_share_link(title, img_path)
+      social_share_hub_tag(title, image: request.protocol + request.host_with_port + img_path)
+    end
   end
 end

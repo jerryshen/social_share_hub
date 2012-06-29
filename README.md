@@ -45,4 +45,4 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-[1]: https://github.com/jerryshen/social_share_hub/blob/master/screenshorts/social_share_hub.png
+[1]: https://github.com/jerryshen/social_share_hub/blob/master/screenshorts/social_share_hub.png "screenshort"
